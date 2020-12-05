@@ -1,0 +1,34 @@
+
+[Executed at: Sat Nov 7 12:19:54 PST 2020]
+
+==================================================
+Error Checking - dictionary file does not exist passed
+==================================================
+Error Checking - sowpods dictionary file does not exist passed
+==================================================
+Error Checking - dictionary file with duplicate words passed
+==================================================
+Error Checking - dictionary file with multiple duplicate words passed
+==================================================
+Error Checking - sowpods dictionary file with duplicate words passed
+==================================================
+Correctness - works for all test files given for sowpods.txt passed 5
+==================================================
+Correctness - works for additional test files given for sowpods.txt passed 5
+==================================================
+Correctness - works for test files for tinyDictionary.txt passed 3
+==================================================
+Correctness - dictionary is empty passed
+==================================================
+Correctness - works for non-letters in the rack passed
+==================================================
+Correctness - upper and lower case letters in the rack (case insensitive) passed
+==================================================
+Correctness - first rack given is . passed
+==================================================
+Correctness - AnagramDictionary - getAnagramsOf works passed
+Correctness - AnagramDictionary - uppercase dictionary works with uppercase strings (case sensitive) passed
+Correctness - AnagramDictionary - non-letters in strings passed
+Correctness - AnagramDictionary - defensive copy in getAnagramsOf passed
+==================================================
+

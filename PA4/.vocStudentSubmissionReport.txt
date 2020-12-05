@@ -1,0 +1,32 @@
+
+[Executed at: Mon Nov 2 7:57:45 PST 2020]
+
+Checking for: README WordFinder.java AnagramDictionary.java Rack.java ScoreTable.java
+All necessary files are present: 'README WordFinder.java AnagramDictionary.java Rack.java ScoreTable.java' (Passed)
+Executing command: javac -d . WordFinder.java 
+(Passed)
+Executing command: javac -d . AnagramDictionary.java 
+(Passed)
+Executing command: javac -d . Rack.java 
+(Passed)
+Executing command: javac -d . ScoreTable.java 
+(Passed)
+All necessary files compiled: 'WordFinder.java AnagramDictionary.java Rack.java ScoreTable.java' (Passed)
+Executing command: javac -d . ControllerField.java 
+(Passed)
+Executing command: javac -d . IllegalDictionaryException.java 
+(Passed)
+All other files compiled (Passed)
+
+
+--------------------------------------------
+Checking correctness: your output should be char-by-char the same as our output
+========= tinyDictionary checking ==========
+Tiny Dictionary test Passed.
+
+======= tinyDictionaryUpper checking =======
+Tiny Dictionary Uppercase test Passed.
+
+========= Default dictionary checking ==========
+Default dictonary test Passed.
+

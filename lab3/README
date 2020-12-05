@@ -1,0 +1,53 @@
+Name:
+USC NetID:
+CSCI 455 Fall 2020
+Lab 3
+
+Note: On-campus students can put their answers to the lab questions in this file, or in a text file created in another text editor, or use a piece of paper they can show to their lab TA.  DEN students will need to put their answers in this README, so they will get submitted.
+
+
+Question 1.1:
+      register.recordPurchase(4.35);
+      register.receivePayment(5,0,0,0,0);
+      System.out.print("Total: ");
+      System.out.println(register.getTotal());
+      int change = register.giveChange();
+      System.out.println("Change:");
+      System.out.println(String.valueOf(change));
+
+Question 1.2:
+error: incompatible types: possible lossy conversion from double to int
+The return of function giveChange is double and I assgin returned value to an integer number, which will cause this error.
+
+Question 2.1:
+no
+
+Question 3.1:
+cp ex2/* ex3/
+
+Question 4.1:
+Error1 "CashReg cannot be applied to given types;register.receivePayment(payment);"
+After modifing receivePayment, we got "CashRegTester4.java:24: error: incompatible types: double can
+not be converted to Change"
+
+
+public void receivePayment(Change change)
+   {
+      payment = change.totalValue()/100.0;
+   }
+
+public Change giveChange()
+   {
+      double change = payment - purchase/100.0;
+      int dollars,quarters,dimes,nickels,pennies= 0;
+      dollars = (int)change;
+      quarters = (int)Math.round((change - dollars)*100)/25;      
+      dimes = (int)Math.round((change - dollars - 0.25 * quarters) * 100)/10;
+      nickels = (int)Math.round((change - dollars - 0.25 * quarters - 0.10 * dimes) * 100)/5;
+      pennies = (int)Math.round((change - dollars - 0.25 * quarters - 0.10 * dimes - 0.05 * nickels) * 100 )/1;   
+      purchase = 0;
+      payment = 0;
+      return (new Change(dollars, quarters, dimes, nickels, pennies));
+   }
+   }
+

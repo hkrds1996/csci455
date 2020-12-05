@@ -1,0 +1,16 @@
+
+[Executed at: Fri Sep 4 19:16:01 PDT 2020]
+
+Checking for: README CoinTossSimulator.java CoinSimViewer.java CoinSimComponent.java Bar.java CoinTossSimulatorTester.java
+All necessary files are present: 'README CoinTossSimulator.java CoinSimViewer.java CoinSimComponent.java Bar.java CoinTossSimulatorTester.java' (Passed)
+Executing command: javac -d . CoinTossSimulator.java 
+(Passed)
+Executing command: javac -d . CoinSimViewer.java 
+(Passed)
+Executing command: javac -d . CoinSimComponent.java 
+(Passed)
+Executing command: javac -d . Bar.java 
+(Passed)
+Executing command: javac -d . CoinTossSimulatorTester.java 
+(Passed)
+All necessary files compiled: 'CoinTossSimulator.java CoinSimViewer.java CoinSimComponent.java Bar.java CoinTossSimulatorTester.java' (Passed)

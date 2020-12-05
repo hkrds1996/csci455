@@ -1,0 +1,43 @@
+
+[Executed at: Tue Sep 29 19:26:44 PDT 2020]
+
+Checking for files:
+'README Bookshelf.java BookshelfKeeper.java BookshelfKeeperProg.java'
+All necessary files are present. (Passed)
+
+Executing command: javac -d . Bookshelf.java 
+(Passed)
+Executing command: javac -d . BookshelfKeeper.java 
+(Passed)
+Executing command: javac -d . BookshelfKeeperProg.java 
+(Passed)
+All necessary files compiled:
+'Bookshelf.java BookshelfKeeper.java BookshelfKeeperProg.java' (Passed)
+
+Checking correctness: your output should be char-by-char the same as
+our output for the test cases provided with starter code
+
+======= Test case 1 =======
+Test case 1 Passed.
+
+======= Test case 2 =======
+Test case 2 Passed.
+
+======= Test case 3 =======
+Test case 3 Passed.
+
+======= Error case 1 =======
+Error case 1 Passed.
+
+======= Error case 2 =======
+Error case 2 Passed.
+
+======= Error case 3 =======
+Error case 3 Passed.
+
+======= Error case 4 =======
+Error case 4 Passed.
+
+======= Error case 5 =======
+Error case 5 Passed.
+

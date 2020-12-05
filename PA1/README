@@ -1,0 +1,58 @@
+Name: Kangrong Hu
+USC NetId: kangrong
+CSCI 455 PA1
+Fall 2020
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+K.H
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+Question 1:
+I used the code that is related to the size of font from the web. 
+
+Question 2:
+two heads: 0.25
+two tails: 0.25
+one head and one tail: 0.5
+In each time, the probability of head(p) is 0.5 and the probability of tail is 0.5.
+According to statistics, the expectation of two heads is E(P1*P2). While coin toss are independent events, E(P1*P2) = E(P1)*E(p2). Therefore, with increasing times of simulations, the probability of two heads will close to E(P1)*E(P2), 0.5 * 0.5 = 0.25. And the expectation of two hails is the same 0.25. Besides, the set of two heads, two tails and one head and one tail is an universe.Therefore, the expectation of one head and one tail is 1 - 0.25 - 0.25 = 0.5.So in the probabilities we got, one should be different with others.
+
+Question 3:
+5000
+
+Question 4:
+2147483647 is the max value in integer.
+When I put Integer.MAX_VALUE in number of trials, I can get a right number.However, when I put Integer.MAX_VALUE + 1 which is 2147483648 in number of trials, the application crashes.

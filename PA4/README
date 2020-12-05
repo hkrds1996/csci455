@@ -1,0 +1,72 @@
+Name: Kangrong Hu
+USC NetID: kangrong
+CS 455 PA4
+Fall 2020
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+K.H
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+In my program, I have six classes.
+
+View:
+   WordFinder: main class responsible for interactive with user. Geting input from user and response to user.This class also sorts the possible words by 
+           using "Collections.sort" with the Comparator class called "myComparator", then shows the user the possible words and their score.
+
+Controller:
+   ControllerField: this's the controller in my program. responsible for connecting user and models.
+
+Models:
+   AnagramDictionary: dictionary of all anagram sets. Recording the information of the dictionary.I used the second way to
+                record dictionary's information.
+                I used "HashMap<String, HashSet<String>>" to record anagram sets. The complexity of get a word's anagram
+                sets is O(n).
+
+   Rack： corresponds to the idea of the rack in the problem. This Rack inculdes the methods that processes the rack of
+        scabble tiles. I used "ArrayList<String>" to store all the possible words' anagrams.
+      
+   ScoreTable: a custom class responsible for counting score. I used "Map<String, Integer>" to record words and their scores.
+           Besides, I used "static final int[]" to record 26 letters' scores.
+      
+   IllegalDictionaryException:  This class reports problems with the dictionary file.
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+Value of empty nums: ()
+
+Min value of empty nums: 2147483647
+------------ testing valuesGT --------------
+Values greater than 10: ()
+
+Original list of nums: ()
+
+--------------------------------------------
+Value of nums read in: (-20 -17 21 10 9 11 -16 -19 -21 -18 20 22 11)
+
+Min value of nums: -21
+------------ testing valuesGT --------------
+Values greater than 10: (21 11 20 22 11)
+
+Original list of nums: (-20 -17 21 10 9 11 -16 -19 -21 -18 20 22 11)
+
+--------------------------------------------
+------------ testing valuesGT --------------
+Values greater than -20: (-17 21 10 9 11 -16 -19 -18 20 22 11)
+
+Original list of nums: (-20 -17 21 10 9 11 -16 -19 -21 -18 20 22 11)
+
+--------------------------------------------
+------------ testing valuesGT --------------
+Values greater than -17: (21 10 9 11 -16 20 22 11)
+
+Original list of nums: (-20 -17 21 10 9 11 -16 -19 -21 -18 20 22 11)
+
+--------------------------------------------
+------------ testing valuesGT --------------
+Values greater than 21: (22)
+
+Original list of nums: (-20 -17 21 10 9 11 -16 -19 -21 -18 20 22 11)
+
+--------------------------------------------

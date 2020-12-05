@@ -1,0 +1,43 @@
+Name:
+USC NetID:
+CSCI 455 Fall 2020
+Lab 11
+
+
+Ex 1 (list of test cases and expected results)
+Stack before: [8] <-- top
+Stack after removeEvens: [] <-- top
+
+Stack before: [5] <-- top
+Stack after removeEvens: [5] <-- top
+
+Stack before: [] <-- top
+Stack after removeEvens: [] <-- top
+
+Stack before: [1, 2, 3, 4, 5] <-- top
+Stack after removeEvens: [1, 3, 5] <-- top
+
+Stack before: [1, 2, 3, 4, 4, 4, 5, 8] <-- top
+Stack after removeEvens: [1, 3, 5] <-- top
+
+
+Ex 4 (Answers to questions)
+Q4.1:
+LinkedList
+ArrayList
+
+Q4.2:
+partially-filled array.
+
+Q4.3
+The back of the array. Because the operation from the back is O(1).
+
+Q4.4:
+push O(n)
+pop O(n)
+top O(1)
+
+Q4.5:
+push O(1)
+pop O(1)
+top O(1)

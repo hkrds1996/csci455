@@ -1,0 +1,68 @@
+Name: Kangrong Hu
+USC NetID: kangrong
+CSCI 455 Fall 2020
+Lab 4
+
+Note: On-campus students can put their answers to the lab questions in this file, or use a piece of paper they can show to their lab TA.  DEN students will need to put their answers in this README, so they will get submitted.
+
+Question 1.1:
+If you test a bounch of code, you won't find out which parts have problem.
+
+Question 2.1:
+nums.in -17
+test1.in 212
+test2.in 2147483648
+
+Question 3.1:
+nums.in:
+Values greater than 10: (17 17 21 18)
+Values greater than -20: (3 -7 10 17 9 -17 17 21 18 7)
+Values greater than -17: (3 -7 10 17 9 17 21 18 7)
+Values greater than 21: ()
+
+test1.in:
+Values greater than 10: (23 34 45 23)
+Values greater than -20: (23 34 45 23 -2 9 8)
+Values greater than -17: (23 34 45 23 -2 9 8)
+Values greater than 21: (23 34 45 23)
+
+test2.in:
+Values greater than 10: (2147483647 2147483647)
+Values greater than -20: (2147483647 2147483647)
+Values greater than -17: (2147483647 2147483647)
+Values greater than 21: (2147483647 2147483647)
+
+Question3.2:
+Original list of nums: (-20 -17 21 10 9 11 -16 -19 -21 -18 20 22 11)
+Values greater than 10: (21 11 20 22 11)
+Values greater than -20: (-17 21 10 9 11 -16 -19 -18 20 22 11)
+Values greater than -17: (21 10 9 11 -16 20 22 11)
+Values greater than 21: (22)
+
+Question 4.1
+Special symbol
+character
+
+Question 4.2
+(nums.valuesGT(threshold)).printVals();
+
+Question 4.3
+a instance of Nums
+
+Question 4.4
+Nums myNums = nums.valuesGT(threshold);
+myNums.printVals();
+
+Question 4.5
+ArrayList needs more extra storage to store data.If we know how many numbers we want to storage, array is better.
+
+Question 4.6
+ArrayList can grow and shrink as we want.
+
+Question 4.7
+1 no. Because we can  read and print at the same time.
+2 no. Because we just need to record the minimum number, an int variable is good enough.
+3 no. Because we can read and print at the same time and use a local int variable to record the minimum number and print the minimum number later.
+4 no. We can compare the numbers with threshhold when we read and print the values.
+5 yes.We should use it because we need to compare our numbers with the threshold.
+6 yes. Because we need to use the values later.

@@ -1,0 +1,14 @@
+and 3
+better 1
+dg 6
+dog 6
+dot 6
+the 12
+---------- Breaking Line ------------
+sorted result:
+the 12
+dot 6
+dog 6
+dg 6
+and 3
+better 1

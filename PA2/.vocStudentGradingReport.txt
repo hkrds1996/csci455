@@ -1,0 +1,56 @@
+
+[Executed at: Thu Oct 15 12:09:54 PDT 2020]
+
+==================================================
+Correctness Bookshelf class works without -ea flag passed
+==================================================
+Correctness Bookshelf class works with -ea flag passed
+==================================================
+Correctness BookshelfKeeperProg works passed
+==================================================
+Correctness BookshelfKeeper - default constructor passed
+==================================================
+Correctness BookshelfKeeper - 1 arg constructor passed
+Correctness BookshelfKeeper - configString passed
+==================================================
+Correctness BookshelfKeeper - pickBook( ) works for single book passed
+==================================================
+Correctness BookshelfKeeper - pickBook( ) works for index 0 passed
+==================================================
+Correctness BookshelfKeeper - pickBook( ) works for last valid index passed
+==================================================
+Correctness BookshelfKeeper - putBook( ) works for putting book on empty shelf passed
+==================================================
+Correctness BookshelfKeeper - prepend book through putBook( ) passed
+==================================================
+Correctness BookshelfKeeper - append book through putBook( ) passed
+==================================================
+Correctness BookshelfKeeper - pickBook( ) works correctly while moving books from start passed
+==================================================
+Correctness BookshelfKeeper - pickBook( ) works correctly while moving books from end passed
+==================================================
+Correctness BookshelfKeeper - putBook( ) works correctly while moving books from start passed
+==================================================
+Correctness BookshelfKeeper - putBook( ) works correctly while moving books from end passed
+==================================================
+Correctness BookshelfKeeper - performs pick/ put operations on uninitialized Bookshelf passed
+==================================================
+==================================================
+Correctness Error Checking - input not in non-decreasing order passed
+==================================================
+Correctness Error Checking - input contain negative height passed
+==================================================
+Correctness Error Checking - invalid Book Operation passed
+==================================================
+Correctness Error Checking - pick operation contain negative index passed
+==================================================
+Correctness Error Checking - pick operation out of bounds passed
+==================================================
+Correctness Error Checking - put operation contain negative height passed
+==================================================
+==================================================
+Extra credit - handles initialized bookshelf with duplicate heights passed
+==================================================
+Extra credit - handles uninitialized bookshelf with duplicate heights passed
+==================================================
+
