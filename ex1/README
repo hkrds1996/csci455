@@ -1,0 +1,73 @@
+Name: Kangrong Hu
+USC NetID: 
+CSCI 455 Fall 2020
+Lab 1
+
+Note: All students should put their answers to the lab questions in this file.
+
+Question 1.1：
+result of pwd:
+/home/ccc_5174c9ef84_12061/asn218233_2/asn218234_1/work 
+
+result of ls:
+Hello.java  README 
+
+Question 1.2: 
+Create a new directory called ex1
+
+Question 1.3:
+pwd in ex1 direction:
+/home/ccc_5174c9ef84_12061/asn218233_2/asn218234_1/work/ex1        
+
+Question 1.4:
+cd
+cd ..
+
+Question 1.5:
+
+cp ../resource/scripts/run.sh ./ex1                  
+
+Question 1.6:
+cat Hello.java:
+// a first java program                                            
+                                                                   
+public class Hello {                                               
+                                                                   
+   public static void main(String [] args) {                       
+                                                                   
+      System.out.println("Hello world!");                          
+                                                                   
+   }                                                               
+}     
+more Hello.java:
+// a first java program                                            
+                                                                   
+public class Hello {                                               
+                                                                   
+   public static void main(String [] args) {                       
+                                                                   
+      System.out.println("Hello world!");                          
+                                                                   
+   }                                                               
+}     
+
+Question 1.8
+make a cope of Hello.java from home to lab1 directory.
+
+Question 1.9 and 1,10
+it's the same as before using cd ../..
+
+Question 1.11
+mkdir ../foo
+
+Question 1.12
+cd ../foo
+
+
+Question 3.1
+Hello.java:7: error: unclosed string literal                       
+      System.out.println("Hello world!)                            
+                         ^                                         
+Hello.java:7: error: ';' expected                                  
+      System.out.println("Hello world!)  
+
