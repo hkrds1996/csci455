@@ -1,7 +1,7 @@
 # csci455
 <font size = 5> Code for  USC csci455 </font>
 
-This project contains all the programs in CSCi455 course. All the programs are programs for newbie but practice is the best teacher. CSCI 455 is a good course for someone who want to be a programmer. The programs contain JAVA and C++(lab12, lab13 and PA5). 
+This project contains all the programs in CSCi455 course. All the programs are programs for newbie but practice is the best teacher. CSCI 455 is a good course for someone who want to be a programmer. The programs contain JAVA and C++(lab12, lab13 and PA5). <font color= red>(the PA1 is a trash)</font>
 
 * *PA\** are the course assignments.
 * *lab\** are the labs done in lab classes.
